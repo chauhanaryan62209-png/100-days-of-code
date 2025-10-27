@@ -4,6 +4,7 @@ int main() {
     float num1, num2;   
     float sum, difference, product, quotient;
 
+    
     printf("Enter first number: ");
     scanf("%f", &num1);
 
@@ -29,3 +30,4 @@ int main() {
         printf("\nQuotient = %.2f\n", quotient);
     else
         printf("\nQuotient = Undefined (division by zero)\n");
+}
